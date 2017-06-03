@@ -1,0 +1,11 @@
+= form_for (@gift) do |f|
+	=f.label(:title, "Title")
+	=f.text_field :title
+	%br
+	=f.label(:url, "URL")
+	=f.text_field :url
+	%br
+	=f.label(:description, "description")
+	=f.text_field :description
+	%br
+	=f.submit "Add to wishlist"
